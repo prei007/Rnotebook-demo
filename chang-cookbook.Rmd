@@ -1,0 +1,23 @@
+---
+title: "Chang R Graphics Cookbook Examples"
+output: html_notebook
+---
+
+### Setup 
+```{r}
+install.packages(c("ggplot2", "gcookbook"))
+library(ggplot2)
+library(gcookbook)
+```
+Let's make sure the we see a data set from gcookbook
+```{r}
+str(pg_mean)
+```
+
+## Chapter 3
+### 3.1 Basic Bar Graph
+```{r}
+ggplot(pg_mean, aes(group, weight)) +
+  geom_bar(stat="identity")
+```
+
