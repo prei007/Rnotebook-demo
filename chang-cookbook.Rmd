@@ -2,7 +2,7 @@
 title: "Chang R Graphics Cookbook Examples"
 output: html_notebook
 ---
-
+This is a version that will be shared on github. 
 ### Setup 
 ```{r}
 install.packages(c("ggplot2", "gcookbook"))
