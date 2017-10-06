@@ -3,6 +3,12 @@ title: "Chang R Graphics Cookbook Examples"
 output: html_notebook
 ---
 This is a version that will be shared on github. 
+
+This is now a version on a new branch. 
+
+More changes.
+
+
 ### Setup 
 ```{r}
 install.packages(c("ggplot2", "gcookbook"))
