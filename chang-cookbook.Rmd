@@ -19,6 +19,6 @@ str(pg_mean)
 ### 3.1 Basic Bar Graph
 ```{r}
 ggplot(pg_mean, aes(group, weight)) +
-  geom_bar(stat="identity")
+  geom_bar(stat="identity", fill="lightblue", colour="black)
 ```
 
