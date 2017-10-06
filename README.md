@@ -1,6 +1,2 @@
 # Rnotebook-demo
 A basic demonstration how to cooperate on RNotebook documents using github
-
-This is an entry 5 october 10:12AM to demonstrate updates
-
-This is a change at 14:38
